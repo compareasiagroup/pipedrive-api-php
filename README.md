@@ -1,18 +1,20 @@
 PipeDrive-api-php
 ============
 
+All credits to "Benhawker\Pipedrive" ( https://packagist.org/packages/benhawker/pipedrive )
+
 PHP API client library for the PipeDrive CRM
 
 Only some basic functionality required for my current project has been added. However the basic blocks are to make use of the whole API including file uploading.
 
-Recommend you install this library through composer. https://packagist.org/packages/benhawker/pipedrive
+Recommend you install this library through composer. https://packagist.org/packages/compareasiagroup/pipedrive
 
 API Docs can be found here: https://developers.pipedrive.com/v1
 
 Example:  
   
 ```php
-use Benhawker\Pipedrive\Pipedrive;  
+use CompareAsiaGroup\Pipedrive\Pipedrive;  
 
 $pipedrive = new Pipedrive('0deceea867202fcf3889cd507ef93a91789f7e3a');  
 
