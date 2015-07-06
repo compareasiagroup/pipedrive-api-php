@@ -1,3 +1,3 @@
-<?php namespace Benhawker\Pipedrive\Exceptions;
+<?php namespace CompareAsiaGroup\Pipedrive\Exceptions;
 
 class PipedriveHttpError extends PipedriveException {}

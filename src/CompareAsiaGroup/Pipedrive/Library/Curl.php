@@ -1,7 +1,7 @@
-<?php namespace Benhawker\Pipedrive\Library;
+<?php namespace CompareAsiaGroup\Pipedrive\Library;
 
-use Benhawker\Pipedrive\Exceptions\PipedriveHttpError;
-use Benhawker\Pipedrive\Exceptions\PipedriveApiError;
+use CompareAsiaGroup\Pipedrive\Exceptions\PipedriveHttpError;
+use CompareAsiaGroup\Pipedrive\Exceptions\PipedriveApiError;
 
 /**
  * This class does the cURL requests for Pipedrive

@@ -1,6 +1,6 @@
-<?php namespace Benhawker\Pipedrive\Library;
+<?php namespace CompareAsiaGroup\Pipedrive\Library;
 
-use Benhawker\Pipedrive\Exceptions\PipedriveMissingFieldError;
+use CompareAsiaGroup\Pipedrive\Exceptions\PipedriveMissingFieldError;
 
 /**
  * Pipedrive Deals Methods
@@ -18,14 +18,14 @@ class Deals
 {
     /**
      * Hold the pipedrive cURL session
-     * @var \Benhawker\Pipedrive\Library\Curl Curl Object
+     * @var \CompareAsiaGroup\Pipedrive\Library\Curl Curl Object
      */
     protected $curl;
 
     /**
      * Initialise the object load master class
      */
-    public function __construct(\Benhawker\Pipedrive\Pipedrive $master)
+    public function __construct(\CompareAsiaGroup\Pipedrive\Pipedrive $master)
     {
         //associate curl class
         $this->curl = $master->curl();

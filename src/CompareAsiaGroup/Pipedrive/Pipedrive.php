@@ -1,4 +1,4 @@
-<?php namespace Benhawker\Pipedrive;
+<?php namespace CompareAsiaGroup\Pipedrive;
 
     /**
  * Pipedrive API wrapper class v0.1
@@ -54,32 +54,32 @@ class Pipedrive
     protected $version;
     /**
      * Hold the Curl Object
-     * @var \Benhawker\Pipedrive\Library\Curl Curl Object
+     * @var \CompareAsiaGroup\Pipedrive\Library\Curl Curl Object
      */
     protected $curl;
     /**
      * Placeholder attritube for the pipedrive persons class
-     * @var \Benhawker\Pipedrive\Library\Persons Persons Object
+     * @var \CompareAsiaGroup\Pipedrive\Library\Persons Persons Object
      */
     protected $persons;
     /**
      * Placeholder attritube for the pipedrive deals class
-     * @var \Benhawker\Pipedrive\Library\Deals Deals Object
+     * @var \CompareAsiaGroup\Pipedrive\Library\Deals Deals Object
      */
     protected $deals;
     /**
      * Placeholder attritube for the pipedrive activities class
-     * @var \Benhawker\Pipedrive\Library\Activities Activities Object
+     * @var \CompareAsiaGroup\Pipedrive\Library\Activities Activities Object
      */
     protected $activities;
     /**
      * Placeholder attritube for the pipedrive notes class
-     * @var \Benhawker\Pipedrive\Library\Notes Notes Object
+     * @var \CompareAsiaGroup\Pipedrive\Library\Notes Notes Object
      */
     protected $notes;
     /**
      * Placeholder attritube for the pipedrive dealFields class
-     * @var \Benhawker\Pipedrive\Library\DealFields DealFields Object
+     * @var \CompareAsiaGroup\Pipedrive\Library\DealFields DealFields Object
      */
     protected $dealFields;
     /**
@@ -128,7 +128,7 @@ class Pipedrive
     /**
      * Returns the Pipedrive cURL Session
      *
-     * @return \Benhawker\Pipedrive\Library\Curl
+     * @return \CompareAsiaGroup\Pipedrive\Library\Curl
      */
     public function curl()
     {
@@ -138,7 +138,7 @@ class Pipedrive
     /**
      * Returns the Pipedrive Persons Object
      *
-     * @return \Benhawker\Pipedrive\Library\Persons
+     * @return \CompareAsiaGroup\Pipedrive\Library\Persons
      */
     public function persons()
     {
@@ -148,7 +148,7 @@ class Pipedrive
     /**
      * Returns the Pipedrive Deals Object
      *
-     * @return \Benhawker\Pipedrive\Library\Deals
+     * @return \CompareAsiaGroup\Pipedrive\Library\Deals
      */
     public function deals()
     {
@@ -158,7 +158,7 @@ class Pipedrive
     /**
      * Returns the Pipedrive Activities Object
      *
-     * @return \Benhawker\Pipedrive\Library\Activities
+     * @return \CompareAsiaGroup\Pipedrive\Library\Activities
      */
     public function activities()
     {
@@ -168,7 +168,7 @@ class Pipedrive
     /**
      * Returns the Pipedrive Notes Object
      *
-     * @return \Benhawker\Pipedrive\Library\Notes
+     * @return \CompareAsiaGroup\Pipedrive\Library\Notes
      */
     public function notes()
     {
@@ -178,7 +178,7 @@ class Pipedrive
     /**
      * Returns the Pipedrive DealFields Object
      *
-     * @return \Benhawker\Pipedrive\Library\DealFields
+     * @return \CompareAsiaGroup\Pipedrive\Library\DealFields
      */
     public function dealFields()
     {
